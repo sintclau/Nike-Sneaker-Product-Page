@@ -1,0 +1,27 @@
+.bigshoe {
+    max-height=95%;
+    max-width:85%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    transform:rotate(-15deg);
+}
+
+.headercolcontent {
+    padding-top: 140px;
+    padding-bottom: 120px;
+}
+
+.hcc1 {
+    margin-left: 110px;
+}
+
+.hcc2 {
+    margin-right: 100px;
+}
+
+.hcc2background {
+    background-image: url("imgs/backgroundheader.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
