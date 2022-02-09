@@ -9,7 +9,7 @@
     <title>Nike Product Page</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top no-padding" id="custom-bg-nav">
     <div class="container">
         <a class="navbar-brand" href="#"><img src="imgs/nike-swoosh-vector-logo.png" width="60" height="60" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,18 +33,37 @@
         <div class="row align-items-center">
             <div class="col-4">
                 <div class="headercolcontent hcc1">
-                    <h1>Nike Air Max<br> Zephyr EOI</h1>
+                    <h1 style="padding-bottom: 10px;"><b>Nike Air Max<br> Zephyr EOI</b></h1>
                     <p>"Bring back the 90's"<br>Celebrating the history of Air Max shoes<br>with the <b>Evolution of Icons</b> collection.</p>
                 </div>
             </div>
             <div class="col-8 hcc2background">
-                <div class="headercolcontent hcc2">
-                    <img class="bigshoe" src="imgs/side_oneshoe.png" alt="">
+                <div class="headercolcontent hcc2 img-hover-zoom">
+                    <img class="bigshoe" src="imgs/test.png" alt="">
                 </div>
             </div>
         </div>
     </div>
+    <div class="container-fluid wavy-section2">
+        <div class="row align-items-center"  style="padding-top: 40px; padding-bottom: 60px;">
+            <div class="col-5">
+                <div class="hcc1" style="text-align: center; padding-left: 50px;">
+                    <h2><b>Go big or Go home.</b></h2>
+                    <p>The Nike Air Max Zephyr is all about our 720 Max Air unit and super-soft foam for non-stop cushioning and squishy support. So comfy and lightweight, get ready to bounce with these everyday kicks.</p>
+                </div>
+            </div>
+            <div class="col-7">
+                <div class="hcc2">
+                    <img class="bigphoto_both" src="imgs/bigphoto_both_nobg.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <p>Lorem ipsum hatz</p>
+    </div>
 </body>
+<script src="script.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </html>
